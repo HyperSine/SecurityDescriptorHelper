@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "common\common.vcxitems", "{883CCF15-FE1F-42BA-8DF7-6B6B592E6A57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sddl-display", "sddl-display\sddl-display.vcxproj", "{9582BE27-9843-462B-BFBB-79427D553966}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		common\common.vcxitems*{883ccf15-fe1f-42ba-8df7-6b6b592e6a57}*SharedItemsImports = 9
+		common\common.vcxitems*{9582be27-9843-462b-bfbb-79427d553966}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9582BE27-9843-462B-BFBB-79427D553966}.Debug|x64.ActiveCfg = Debug|x64
+		{9582BE27-9843-462B-BFBB-79427D553966}.Debug|x64.Build.0 = Debug|x64
+		{9582BE27-9843-462B-BFBB-79427D553966}.Debug|x86.ActiveCfg = Debug|Win32
+		{9582BE27-9843-462B-BFBB-79427D553966}.Debug|x86.Build.0 = Debug|Win32
+		{9582BE27-9843-462B-BFBB-79427D553966}.Release|x64.ActiveCfg = Release|x64
+		{9582BE27-9843-462B-BFBB-79427D553966}.Release|x64.Build.0 = Release|x64
+		{9582BE27-9843-462B-BFBB-79427D553966}.Release|x86.ActiveCfg = Release|Win32
+		{9582BE27-9843-462B-BFBB-79427D553966}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6219374-D1A0-433F-8E5E-DC19D959E5B6}
+	EndGlobalSection
+EndGlobal
