@@ -7,7 +7,7 @@
 ```console
 $ git clone https://github.com/DoubleLabyrinth/SecurityDescriptorHelper.git
 $ cd SecurityDescriptorHelper
-$ msbuild SecurityDescriptorHelper.sln /target:sddl-display /p:Configuration=Release /p:Platform=x64    // or `x86` if you like
+$ msbuild SecurityDescriptorHelper.sln /target:sddl-display /p:Configuration=Release /p:Platform=x64    # or `x86` if you like
 ```
 
 Then you will see `sddl-display.exe` in `bin\x64-Release\` folder.
